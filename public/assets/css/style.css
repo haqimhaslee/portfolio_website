@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #121212;
+  color: #d8d8d8;
 }
 
 h1,
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 a {
@@ -137,7 +137,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #4d92ff;
   font-size: 1.1rem;
 }
 
@@ -155,7 +155,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .line-mf {
@@ -192,9 +192,10 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #252424;
   margin-bottom: 3rem;
   z-index: 2;
+  border-radius: 20px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -330,7 +331,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #004592;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -657,7 +658,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #020202;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -676,13 +677,13 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: #0059c0;
 }
 
 .navbar-mobile .getstarted,
@@ -836,13 +837,13 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 4px;
   height: 0.7rem;
 }
 
@@ -855,7 +856,7 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #1f1f1f;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -871,7 +872,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 .service-box .ico-circle {
@@ -894,7 +895,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -934,7 +935,8 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #2e2d2d;
+  border-radius: 15px;
 }
 
 .work-box:hover img {
@@ -955,12 +957,12 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #e7e7e7;
   font-size: 0.8rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #56a6ff;
 }
 
 .work-content .w-like {
@@ -1174,7 +1176,9 @@ a:hover {
 
 .php-email-form input,
 .php-email-form textarea {
-  border-radius: 0;
+  background-color: #0c0c0c;
+  border: 1px solid #0c0c0c;
+  border-radius: 10px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1189,6 +1193,7 @@ a:hover {
 }
 
 .php-email-form textarea {
+
   padding: 12px 15px;
   margin-bottom: 0;
 }
@@ -1437,7 +1442,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #000000;
 }
 
 footer .copyright {
