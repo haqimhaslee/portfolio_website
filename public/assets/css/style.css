@@ -16,7 +16,7 @@ h6 {
 }
 
 a {
-  color: #7c7c7c;
+  color: #b0b0b0;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #000814a1;
 }
 
 .overlay-mf {
@@ -102,7 +102,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .paralax-mf {
@@ -148,7 +148,7 @@ a:hover {
 
 .title-a {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -825,9 +825,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -859,7 +857,7 @@ a:hover {
   background-color: #1f1f1f;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -932,11 +930,13 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem;
+  font-size: 1.5rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #2e2d2d;
   border-radius: 15px;
+  margin-bottom: 20px;
+
 }
 
 .work-box:hover img {
@@ -949,6 +949,8 @@ a:hover {
 }
 
 .work-img img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   transition: all 1s;
 }
 
@@ -1013,7 +1015,9 @@ a:hover {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  background-color: #2a2a2a;
+  box-shadow: 0px 0 30px rgb(78 78 78 / 16%);
+  border-radius: 10px;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1178,6 +1182,7 @@ a:hover {
 .php-email-form textarea {
   background-color: #0c0c0c;
   border: 1px solid #0c0c0c;
+  color: #e8e8e8;
   border-radius: 10px;
   box-shadow: none;
   font-size: 14px;
@@ -1277,7 +1282,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+ 
 }
 
 /*--------------------------------------------------------------
