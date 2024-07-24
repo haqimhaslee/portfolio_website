@@ -93,6 +93,7 @@ a:hover {
 
 .overlay-mf {
   background-color: #000814a1;
+  backdrop-filter: blur(3px);
 }
 
 .overlay-mf {
@@ -464,8 +465,9 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(0 0 0 / 42%);
   padding: 12px 0;
+  backdrop-filter: blur(19px);
 }
 
 /*--------------------------------------------------------------
@@ -639,9 +641,10 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: rgb(0 0 0 / 0%);
   transition: 0.3s;
   z-index: 999;
+  backdrop-filter: blur(20px);
 }
 
 .navbar-mobile .mobile-nav-toggle {
