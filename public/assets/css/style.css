@@ -56,7 +56,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  
 }
 
 .display-5 {
@@ -335,7 +335,7 @@ a:hover {
   background: #004592;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 20px;
   transition: all 0.4s;
 }
 
@@ -346,8 +346,9 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
-  color: #fff;
+  border-radius: 10px;
+    background: #298eff;
+    color: #fff;
 }
 
 .back-to-top.active {
@@ -1207,15 +1208,17 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #0057b9;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 20px;
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: #216ec4;
+  border-radius: 10px;
 }
 
 @keyframes animate-loading {
