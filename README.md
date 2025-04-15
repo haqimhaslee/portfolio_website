@@ -23,6 +23,4 @@ I think this all of these code will help the others to create and learn to code.
 
 Open source framework from Bootstrap
 
-[contributor guide](CONTRIBUTING.md).
-
 © 2022 Haqim Haslee
